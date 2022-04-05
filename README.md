@@ -1,1 +1,1 @@
-# web-tech-cw2-12387
+# You can run this program by opening web-tech-cw2-12387 folder in cmd and type npm start command. And then go to client folder and select index.html.
