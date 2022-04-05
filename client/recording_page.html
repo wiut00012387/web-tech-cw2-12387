@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RecordingPage</title>
+    <link rel="stylesheet" href="./styles/user.css">
+</head>
+
+<body>
+    <h1 class="title">WIUT Students Management System</h1>
+    <div class="container">
+        <button class='add-user'>New student<img src="./images/user_icon.png" alt=""></button>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Status</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <form id="form" class="form" action="">
+        <h6 class="text">Add Student</h6>
+        <p class="user-id"></p>
+        <input required class="name" type="text" placeholder="Enter your name here">
+        <input required class="email" type="email" placeholder="Enter you email here">
+        <input required class="gender" type="text" placeholder="Enter your gender here">
+        <input required class="status" type="text " placeholder="Enter your status here">
+        <input required class="age" type="number" placeholder="Enter you age here">
+        <div class="buttons ">
+            <button class="close ">Close</button>
+            <button class="btn" id="form-btn">Add</button>
+        </div>
+
+    </form>
+    <a class="second-href" href="index.html">Main Page</a>
+    <script src="./javascripts/main.js"></script>
+</body>
+
+</html>

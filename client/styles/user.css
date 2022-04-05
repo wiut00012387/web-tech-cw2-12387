@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.title-none {
+    display: none;
+}
+
+.no-student {
+    text-align: center;
+    color: red;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: transparent;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.block {
+    display: block!important;
+}
+
+.container h2 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.container .table {
+    border-spacing: 1px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container .table thead {
+    background-color: #222433;
+    border: none;
+}
+
+.container .table thead th {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.container .table .tbody tr {
+    border-bottom: 1px solid #d7d7d7!important;
+}
+
+.container .table .tbody button {
+    background-color: #ffffff;
+    border: transparent;
+    border-radius: 4px;
+    padding: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.container .table .tbody button img {
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+}
+
+.container .table tbody tr td {
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container .add-user {
+    background-color: #ffffff;
+    border: transparent;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container .add-user img {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.form {
+    max-width: 600px;
+    border: 1px solid darkolivegreen;
+    margin: 40px auto;
+    padding: 0 40px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.none {
+    display: block;
+}
+
+.inline {
+    display: block;
+}
+
+.form h6 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 13px;
+    border: 1px solid darkolivegreen;
+    margin-top: 10px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form .buttons {
+    display: flex;
+}
+
+.form button {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    padding: 10px 18px;
+    border-radius: 13px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid darkolivegreen;
+    color: #000;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.form button:hover {
+    background-color: darkolivegreen;
+    color: #fff;
+}
+
+.form p {
+    opacity: 0;
+}
+
+.main-title {
+    color: #000;
+    font-weight: 700;
+    max-width: 700px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.main-href,
+.second-href {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 30px;
+}
